@@ -1,6 +1,6 @@
-# gorepotemplate
+# goalgo
 
-> This is the initial directory tree for gorepotemplate. Update it with the make_tree_md.sh script ([GNU-tree required][get_tree]) to keep it current if you wish. It is safe to delete this file.
+> This is the initial directory tree for goalgo. Update it with the make_tree_md.sh script ([GNU-tree required][get_tree]) to keep it current if you wish. It is safe to delete this file.
 
 ### Directory Structure
 
@@ -23,7 +23,7 @@
 ├── SECURITY.md
 ├── cmd
 │   └── example
-│       └── gorepotemplate
+│       └── goalgo
 │           └── main.go
 ├── contributing.md
 ├── coverage.txt
@@ -36,7 +36,7 @@
 ├── go.doc
 ├── go.mod
 ├── go.test.sh
-├── gorepotemplate.go
+├── goalgo.go
 ├── idea.md
 ├── make_tree_md.sh
 └── tree.md
