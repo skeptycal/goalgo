@@ -3,9 +3,20 @@ package goalgo
 import (
 	"reflect"
 	"testing"
+
+	"github.com/skeptycal/types"
+	// . "github.com/skeptycal/types"
+)
+
+type (
+	Benchmark = types.Benchmark
 )
 
 var (
+	NewBenchmark = types.NewBenchmark
+	Contains     = types.Contains
+	Count        = types.Count
+
 	mapTests = []struct {
 		name      string
 		protected bool

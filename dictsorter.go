@@ -1,6 +1,10 @@
 package goalgo
 
-import "reflect"
+import (
+	"reflect"
+
+	"github.com/skeptycal/types"
+)
 
 // Dict is a dictionary used to store keys and values of any
 // type that is comparable and sortable.
@@ -15,6 +19,13 @@ type dictSorter struct {
 
 	keysort   AnySlice
 	valuesort AnySlice
+}
+
+// DictSorter is a dictionary for types that are sortable and
+// and implements the standard library sort.Interface methods.
+type DictSorter interface {
+	Dict
+	types.Sorter
 }
 
 // Enable activates sorting of keys and values

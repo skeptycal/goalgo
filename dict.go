@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"sort"
 	"strings"
+
+	"github.com/skeptycal/types"
 )
 
 const (
@@ -18,10 +20,10 @@ type Dict interface {
 	Delete(key Any) error
 	IsSortable() bool // always false for basic dict
 
-	GetSetter
-	Protector
-	Slicer
-	Stringer
+	types.GetSetter
+	types.Protector
+	types.Slicer
+	types.Stringer
 }
 
 func errMapKeysProtected(a Any) error {

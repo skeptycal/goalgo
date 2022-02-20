@@ -9,6 +9,7 @@ func RandomDate(min, max time.Time) time.Time
 func RandomString(min, max int, caseFunc func(string) string) string
 func GenerateRoster(n int) *roster
 func RandomStudent() *student
+type Any = Any
 type AnyMap map[Any]Any
 type AnySlice interface{ ... }
 type Array interface{ ... }
@@ -17,6 +18,7 @@ type Container interface{ ... }
 type DataSource interface{ ... }
 type Dict interface{ ... }
     func NewDict(name string, protected bool) Dict
+type DictSorter interface{ ... }
 type Dictionary interface{ ... }
 type DynamicArray interface{ ... }
 type DynamicSeq interface{ ... }
