@@ -1,0 +1,34 @@
+package goalgo // import "github.com/skeptycal/goalgo"
+
+const KVFormatString = "%15v = %15v" ...
+var Now = time.Now().UTC() ...
+var CaseFunc = func(s string) string { ... }
+func Example()
+func PastDay(year, month, day int) time.Time
+func RandomDate(min, max time.Time) time.Time
+func RandomString(min, max int, caseFunc func(string) string) string
+func GenerateRoster(n int) *roster
+func RandomStudent() *student
+type AnyMap map[Any]Any
+type AnySlice interface{ ... }
+type Array interface{ ... }
+type AtSeq interface{ ... }
+type Container interface{ ... }
+type DataSource interface{ ... }
+type Dict interface{ ... }
+    func NewDict(name string, protected bool) Dict
+type Dictionary interface{ ... }
+type DynamicArray interface{ ... }
+type DynamicSeq interface{ ... }
+type DynamicSet interface{ ... }
+type FirstSeq interface{ ... }
+type LastSeq interface{ ... }
+type LinkedList interface{ ... }
+type List interface{ ... }
+type OrderSet interface{ ... }
+type Queue interface{ ... }
+type Sequence interface{ ... }
+type Set interface{ ... }
+type Stack interface{ ... }
+type StaticSeq interface{ ... }
+type StaticSet interface{ ... }
