@@ -1,0 +1,5 @@
+package gorepotemplate // import "github.com/skeptycal/gorepotemplate"
+
+Package gorepotemplate contains utilities for macOS.
+
+func Example()
